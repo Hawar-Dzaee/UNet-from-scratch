@@ -44,6 +44,10 @@ Neptun.ai Integration: You can view interactive metrics and model performance vi
 
 ![plotly](https://github.com/user-attachments/assets/97ebec40-6145-4063-9ad4-ee22f52c4fe4)
 
+## Inference on Test Data
+
+<img width="1099" alt="Screen Shot 2024-09-13 at 1 44 56 PM" src="https://github.com/user-attachments/assets/7f1b59ee-0f3e-4de5-b98e-b830f63981b4">
+
 
 ## Future Work
 Implement more advanced data augmentation techniques.
