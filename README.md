@@ -2,6 +2,9 @@
 
 This project demonstrates the implementation of a U-Net architecture from scratch for multi-class image segmentation. The U-Net model is designed to label objects in images such as roads, cars, pedestrians, and other urban features, across 12 different classes. The architecture is inspired by the paper "U-Net: Convolutional Networks for Biomedical Image Segmentation" and has been adapted for the task of labeling urban environments.
 
+![U-Net](https://github.com/user-attachments/assets/7e7ab8cc-b87f-4602-8d8a-f5a79564c519)
+
+
 ## Key Components
 
 ### 1. U-Net Architecture
@@ -44,7 +47,6 @@ Experiment with other segmentation architectures (e.g., DeepLabV3, Mask R-CNN).
 
 
 
-![U-Net](https://github.com/user-attachments/assets/7e7ab8cc-b87f-4602-8d8a-f5a79564c519)
 
 
 
