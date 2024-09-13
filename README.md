@@ -28,7 +28,7 @@ Other relevant urban classes (total of 12 classes)
 
 ### 3. Model Training
 During training, the model’s performance is tracked using Neptun.ai for experiment management and Plotly for interactive visualizations.
-Neptun.ai: Track the learning curves, model metrics, and hyperparameters using Neptun.ai. It provides interactive visualizations and insights into the training process.
+[Neptune.ai](https://neptune.ai/) : Track the learning curves, model metrics, and hyperparameters using Neptun.ai. It provides interactive visualizations and insights into the training process.
 Plotly Figures: Learning curves (accuracy, loss) and other metrics are visualized using Plotly. These figures help in understanding model performance over time.
 
 ### 4. Dataset
