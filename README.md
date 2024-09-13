@@ -11,8 +11,7 @@ The U-Net architecture is known for its excellent performance in image segmentat
 
 ![U-Net](https://github.com/user-attachments/assets/7e7ab8cc-b87f-4602-8d8a-f5a79564c519)
 
-
-The original research paper can be accessed here: U-Net: Convolutional Networks for Biomedical Image Segmentation.
+The original research paper can be accessed here: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597).
 
 ### 2. Multi-Class Segmentation
 We apply U-Net for a multi-class segmentation problem, labeling various urban objects. Each pixel in the image is assigned a class from the following list:
