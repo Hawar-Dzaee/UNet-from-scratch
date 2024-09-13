@@ -9,7 +9,7 @@ The U-Net architecture is known for its excellent performance in image segmentat
 
 The original research paper can be accessed here: U-Net: Convolutional Networks for Biomedical Image Segmentation.
 
-2. Multi-Class Segmentation
+### 2. Multi-Class Segmentation
 We apply U-Net for a multi-class segmentation problem, labeling various urban objects. Each pixel in the image is assigned a class from the following list:
 
 Road
@@ -19,15 +19,15 @@ Building
 Tree
 Other relevant urban classes (total of 12 classes)
 
-3. Model Training
+### 3. Model Training
 During training, the model’s performance is tracked using Neptun.ai for experiment management and Plotly for interactive visualizations.
 Neptun.ai: Track the learning curves, model metrics, and hyperparameters using Neptun.ai. It provides interactive visualizations and insights into the training process.
 Plotly Figures: Learning curves (accuracy, loss) and other metrics are visualized using Plotly. These figures help in understanding model performance over time.
 
-5. Dataset
+### 4. Dataset
 The dataset used for training and evaluation consists of images from urban environments, where each image is labeled with 12 different object classes. Preprocessing steps include resizing the images, normalizing pixel values, and applying data augmentations such as flipping, rotation, and scaling.
 
-6. Model Evaluation
+### 5. Model Evaluation
 The model is evaluated using metrics such as:
 Cross Entropy Loss.
 
