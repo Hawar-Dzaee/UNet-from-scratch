@@ -28,25 +28,9 @@ Plotly Figures: Learning curves (accuracy, loss) and other metrics are visualize
 The dataset used for training and evaluation consists of images from urban environments, where each image is labeled with 12 different object classes. Preprocessing steps include resizing the images, normalizing pixel values, and applying data augmentations such as flipping, rotation, and scaling.
 
 ### 5. Model Evaluation
-The model is evaluated using metrics such as:
-Cross Entropy Loss.
+The model is evaluated using metrics Cross Entropy Loss.
 
-Installation
-Dependencies
-To run this project, ensure you have the following packages installed:
 
-Python 3.8+
-TensorFlow / PyTorch (depending on the deep learning framework used)
-Plotly for interactive plots
-Neptun.ai for experiment tracking
-Other dependencies listed in requirements.txt
-
-pip install -r requirements.txt
-
-Running the Notebook
-Once all dependencies are installed, open the Jupyter notebook to train and evaluate the U-Net model:
-
-jupyter notebook Unet_from_scratch.ipynb
 Results
 During model training, learning curves (accuracy, loss) are plotted using Plotly. Examples of these learning curves can be found in the results section of the notebook.
 Neptun.ai Integration: You can view interactive metrics and model performance via Neptun.ai. It provides detailed tracking of training metrics, which helps in fine-tuning the model.
